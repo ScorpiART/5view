@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TGU project</string>
+    <string name="secondactivity">SecondActivity</string>
+    <string name="next">next</string>
+    <string name="show_snackbar">show snackbar</string>
+    <string name="button">Button</string>
+    <string name="show_snackbar1">Show snackbar1</string>
+    <string name="yourChoise">Не поздно отказаться, потом пути назад не будет</string>
+    <string name="Morpheus_speech">Не поздно отказаться. Потом пути назад не будет</string>
+    <string name="red">red</string>
+    <string name="blue">blue</string>
+    <string name="sleepNeo">Сказке конец. Ты проснулся в своей постели и поверил что это был сон...</string>
+    <string name="backBlue">Назад</string>
+    <string name="wakeUpNeo">Ты вошел в страну чудес. Я покажу тебе глубока ли кроличья нора</string>
+    <string name="backRed">Назад</string>
+</resources>

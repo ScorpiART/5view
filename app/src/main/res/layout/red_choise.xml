@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+
+    <ImageView
+        android:id="@+id/wake_up_Neo_Image"
+        android:layout_width="408dp"
+        android:layout_height="190dp"
+        app:srcCompat="@drawable/wake_up_neo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        style="@style/Theme.Matrix.Text"
+        android:id="@+id/wakeUpNeoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wake_up_Neo_Image"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/wakeUpNeo"
+        android:layout_marginTop="150dp"/>
+
+    <Button
+        android:onClick="backFromRed"
+        style="@style/Theme.RedTablet.Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wakeUpNeoText"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/backRed"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
